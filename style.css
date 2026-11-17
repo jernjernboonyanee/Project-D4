@@ -1,0 +1,84 @@
+body {
+    background-color: rgb(2, 2, 32);
+    font-family: Arial, Helvetica, sans-serif;
+    color:aliceblue;
+
+}
+
+nav {
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 60px;
+    position: sticky;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin-left: 25px;
+}
+
+nav a:hover {
+    color: aliceblue;
+}
+
+.contact a {
+    color: white;
+}
+
+h1 {
+    display:flex;
+    justify-content: center;
+    color: #4CC9F0;
+}
+
+.intro {
+    display: flex;
+    justify-content: center;
+}
+
+header {
+  min-height: 80vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+header h1 {
+  font-size: 32px;
+  margin: 0;
+  color: #4cc9f0;
+}
+
+header p {
+  font-size: 20px;
+  color: #b8c1d1;
+  margin-top: 15px;
+}
+
+.hero-button {
+  margin-top: 30px;
+  padding: 14px 28px;
+  background-color: #4cc9f0;
+  color: #0a0f1c;
+  text-decoration: none;
+  border-radius: 8px;
+  font-weight: bold;
+}
+
+.hero-button:hover {
+  transform: translateY(-3px);
+}
+
+.home-image img {
+  width: 250px;
+  height: 250px;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 5px solid aliceblue;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
