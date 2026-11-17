@@ -53,7 +53,7 @@ header {
 header h1 {
   font-size: 32px;
   margin: 0;
-  color: #4cc9f0;
+  color: aqua;
 }
 
 header p {
@@ -165,7 +165,7 @@ header p {
 
 #Work .work .zyrodrive h2 {
   color:#4cc9f0;
-  margin-top: 200px;
+  margin-top: 100px;
   display: flex;
   justify-content: center;
 }
@@ -175,12 +175,14 @@ header p {
   justify-content: center;
 }
 
+
 #Work .work .ecoroom h2 {
   margin-top: 200px;
   color:#4cc9f0;
   display: flex;
   justify-content: center;
 }
+
 
 #Work .work .ecoroom p {
   display: flex;
