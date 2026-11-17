@@ -9,6 +9,7 @@
   <link rel="stylesheet" href="style.css">
   <body>
 
+    
     <nav>
 
       <a href="#home">Home</a>
@@ -20,10 +21,7 @@
       <a href="#contact">Contact</a>
 
     </nav>
-
-   
-   
-
+  
 
  <header id="home">
   <h1>Portfolio</h1>
@@ -121,6 +119,7 @@
                     และประเมินการปล่อยคาร์บอนจากการใช้งาน CPU</p>
 
          <p>   Tech: Python, Flask, psutil, Chart.js</p>
+         <button class="btndetail" onclick="openModal('Zyro Drive', 'พัฒนาแดชบอร์ดสำหรับตรวจสอบประสิทธิภาพและความปลอดภัยของคอมพิวเตอร์แบบเรียลไทม์ โดยใช้ Python (Flask), psutil และ Chart.js เพื่อวิเคราะห์การใช้ CPU ตรวจจับความเสี่ยงของระบบ และประเมินผลกระทบด้านพลังงาน พร้อมแสดงข้อมูลผ่านกราฟและสถานะที่เข้าใจง่าย')"></button>
         </div>
   
         <div class="ecoroom">
@@ -137,40 +136,49 @@
 
     </section>
 
-<section id="experience" class="experience">
-
-  <div class="experience">
-    <h2>Experience</h2>
-    <div class="mc">
-      <img src="/resource/mc.jpeg" alt="MC for Sci day" width="400px" />
     
-        <p>MC for Science Day 2026</p>
+    <section id="experience" class="experience">
       
+      <div class="experience">
+        <h2>Experience</h2>
+        <div class="mc">
+          <img src="/resource/mc.jpeg" alt="MC for Sci day" width="400px" />
+          
+          <p>MC for Science Day 2026</p>
+          
+        </div>
+        
+        <div class="busem">
+          <img src="/resource/busem.jpeg" alt="BUSEM 2026" width="400px" />
+          
+          <p>Attend in Student Techpreneur compettion 2026</p>
+          
+        </div>
+        
+        <div class="AUA">
+          <img src="resource/AUA.jpg" alt="AUA certificate" width="400px" />
+          
+          <p>Complete AUA B2</p>
+          
+        </div>
+        
+        <div class="ais">
+          <img src="resource/ais.JPG" alt="Ais academy for Thais" width="400px" />
+          
+          <p>Attend in AIS Academy for Thais</p>
+          
+        </div>
+      </div>
+      
+    </section>
+    
+    <div class="moreinfo">
+  
+      <h2>More info for projects</h2>
+      <div id="project-container" class="container"></div>
+      <script src="script.js"></script>
+  
     </div>
-
-    <div class="busem">
-      <img src="/resource/busem.jpeg" alt="BUSEM 2026" width="400px" />
-      
-        <p>Attend in Student Techpreneur compettion 2026</p>
-      
-    </div>
-
-    <div class="AUA">
-      <img src="resource/AUA.jpg" alt="AUA certificate" width="400px" />
-      
-        <p>Complete AUA B2</p>
-      
-    </div>
-
-    <div class="ais">
-      <img src="resource/ais.JPG" alt="Ais academy for Thais" width="400px" />
-      
-        <p>Attend in AIS Academy for Thais</p>
-      
-    </div>
-  </div>
-
-</section>
 
 <section id="contact">
   
@@ -181,6 +189,7 @@
     >
   </div>
 
-</body>
 </section>
+
+</body>
 </html>
