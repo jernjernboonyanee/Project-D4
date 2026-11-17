@@ -1,41 +1,40 @@
 body {
-    background-color: rgb(2, 2, 32);
-    font-family: Arial, Helvetica, sans-serif;
-    color:aliceblue;
-
+  background-color: rgb(2, 2, 32);
+  font-family: Arial, Helvetica, sans-serif;
+  color: aliceblue;
 }
 
 nav {
-    display:flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 20px 60px;
-    position: sticky;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 60px;
+  position: sticky;
 }
 
 nav a {
-    color: white;
-    text-decoration: none;
-    margin-left: 25px;
+  color: white;
+  text-decoration: none;
+  margin-left: 25px;
 }
 
 nav a:hover {
-    color: aliceblue;
+  color: #4cc9f0;
 }
 
 .contact a {
-    color: white;
+  color: white;
 }
 
 h1 {
-    display:flex;
-    justify-content: center;
-    color: #4CC9F0;
+  display: flex;
+  justify-content: center;
+  color: #4cc9f0;
 }
 
 .intro {
-    display: flex;
-    justify-content: center;
+  display: flex;
+  justify-content: center;
 }
 
 header {
@@ -55,7 +54,7 @@ header h1 {
 
 header p {
   font-size: 20px;
-  color: #b8c1d1;
+  color: white;
   margin-top: 15px;
 }
 
@@ -78,7 +77,182 @@ header p {
   height: 250px;
   object-fit: cover;
   border-radius: 50%;
-  border: 5px solid aliceblue;
+  border: 5px solid #4cc9f0;
   margin-top: 20px;
   margin-bottom: 20px;
+}
+
+#About-me {
+  border: 3px solid white;
+  max-width: 700px;
+  margin: 0 auto;
+  border-radius: 10px;
+  margin-top: 110px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  font-size: 18px;
+}
+
+#skills h2 {
+  color:#4cc9f0;
+  display: flex;
+  justify-content: center;
+  margin-top: 150px;
+}
+
+#skills h2:hover {
+  color:aqua;
+}
+
+
+#skills .skills-container {
+  display: flex;
+  justify-content: space-around;
+  padding: 20px;
+}
+
+.skill-card {
+  border: 3px solid white;
+  border-radius: 10px;
+  padding: 20px;
+  width: 200px;
+}
+
+.skill-card p{
+  display:flex;
+  justify-content:center;
+  align-items: center;
+}
+
+.skill-card h3 {
+  color:aliceblue;
+  display:flex;
+  justify-content: center;
+}
+
+#why-engineer .why h2 {
+  color: #4cc9f0;
+  margin-top: 200px;
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+}
+
+#why-engineer .why h2:hover {
+  color:aqua;
+}
+
+
+.why p {
+  font-size: 16px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  max-width: 1000px;
+  margin: 0 auto;
+
+}
+
+#Work .work .zyrodrive h2 {
+  color:#4cc9f0;
+  margin-top: 200px;
+  display: flex;
+  justify-content: center;
+}
+
+#Work .work .zyrodrive p {
+  display: flex;
+  justify-content: center;
+}
+
+#Work .work .ecoroom h2 {
+  margin-top: 200px;
+  color:#4cc9f0;
+  display: flex;
+  justify-content: center;
+}
+
+#Work .work .ecoroom p {
+  display: flex;
+  justify-content: center;
+}
+
+#experience {
+  display: flex;
+  flex: 1;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+
+#experience p {
+  display:flex;
+  justify-content: center;
+}
+
+#experience h2{
+  color:#4cc9f0;
+  display: flex;
+  justify-content: center;
+}
+
+.experience {
+  margin: 100px;
+}
+
+#experience .mc img {
+  border-radius: 10px;
+  object-fit: cover;
+  border: 5px solid #4cc9f0;
+}
+
+#experience .mc img:hover {
+  translate: 5px -10px;
+}
+
+#experience .busem img {
+  border-radius: 10px;
+  object-fit: cover;
+  border: 5px solid #4cc9f0;
+}
+
+#experience .busem img:hover {
+  translate: 5px -10px;
+  }
+
+#experience .AUA img {
+  border-radius: 10px;
+  object-fit: cover;
+  border: 5px solid #4cc9f0;
+}
+
+#experience .AUA img:hover {
+translate: 5px -10px;
+}
+
+#experience .ais img {
+  border-radius: 10px;
+  object-fit: cover;
+  border: 5px solid #4cc9f0;
+}
+
+#experience .ais img:hover {
+  translate: 5px -10px;
+}
+
+#contact .contact h3 {
+  margin-top: 5px;
+  display: flex;
+  justify-content: center;
+}
+
+.contact a {
+  display: flex;
+  justify-content: center;
+  text-decoration: none;
+ 
 }
