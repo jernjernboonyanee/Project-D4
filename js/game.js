@@ -1,10 +1,10 @@
 const btn = document.querySelector("#btn");
 const msg = document.querySelector("#msg");
-console.log (btn);
+console.log(btn);
 
 let clicks = 0;
 
-btn.addEventListener ("click", () => {
+btn.addEventListener("click", () => {
   console.log("Clickeddd!!!!");
 
   clicks = clicks + 1;

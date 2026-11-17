@@ -20,4 +20,3 @@ fetch("data.json")
     });
   })
   .catch((error) => console.error("Unable to download data", error));
-

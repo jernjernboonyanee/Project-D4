@@ -1,6 +1,6 @@
 body {
   background-color: rgb(2, 2, 32);
-  background-image: 
+  background-image:
     radial-gradient(at 10% 10%, rgba(88, 28, 135, 0.4) 0px, transparent 50%),
     radial-gradient(at 90% 90%, rgba(14, 116, 144, 0.35) 0px, transparent 50%);
   font-family: Arial, Helvetica, sans-serif;
@@ -84,7 +84,9 @@ header p {
   border: 5px solid #4cc9f0;
   margin-top: 20px;
   margin-bottom: 20px;
-   box-shadow: 0 0 10px #0ff, 0 0 20px #0ff; 
+  box-shadow:
+    0 0 10px #0ff,
+    0 0 20px #0ff;
 }
 
 #About-me {
@@ -98,20 +100,21 @@ header p {
   flex-direction: column;
   align-items: center;
   font-size: 18px;
-  box-shadow: 0 0 10px rgb(210, 210, 210), 0 0 20px #0ff;
+  box-shadow:
+    0 0 10px rgb(210, 210, 210),
+    0 0 20px #0ff;
 }
 
 #skills h2 {
-  color:#4cc9f0;
+  color: #4cc9f0;
   display: flex;
   justify-content: center;
   margin-top: 150px;
 }
 
 #skills h2:hover {
-  color:aqua;
+  color: aqua;
 }
-
 
 #skills .skills-container {
   display: flex;
@@ -124,19 +127,20 @@ header p {
   border-radius: 10px;
   padding: 20px;
   width: 200px;
-  box-shadow: 0 0 10px rgb(210, 210, 210), 0 0 20px #0ff;
-  
+  box-shadow:
+    0 0 10px rgb(210, 210, 210),
+    0 0 20px #0ff;
 }
 
-.skill-card p{
-  display:flex;
-  justify-content:center;
+.skill-card p {
+  display: flex;
+  justify-content: center;
   align-items: center;
 }
 
 .skill-card h3 {
-  color:aliceblue;
-  display:flex;
+  color: aliceblue;
+  display: flex;
   justify-content: center;
 }
 
@@ -149,9 +153,8 @@ header p {
 }
 
 #why-engineer .why h2:hover {
-  color:aqua;
+  color: aqua;
 }
-
 
 .why p {
   font-size: 16px;
@@ -160,11 +163,10 @@ header p {
   flex-wrap: wrap;
   max-width: 1000px;
   margin: 0 auto;
-
 }
 
 #Work .work .zyrodrive h2 {
-  color:#4cc9f0;
+  color: #4cc9f0;
   margin-top: 100px;
   display: flex;
   justify-content: center;
@@ -175,14 +177,12 @@ header p {
   justify-content: center;
 }
 
-
 #Work .work .ecoroom h2 {
   margin-top: 200px;
-  color:#4cc9f0;
+  color: #4cc9f0;
   display: flex;
   justify-content: center;
 }
-
 
 #Work .work .ecoroom p {
   display: flex;
@@ -198,14 +198,13 @@ header p {
   flex-wrap: wrap;
 }
 
-
 #experience p {
-  display:flex;
+  display: flex;
   justify-content: center;
 }
 
-#experience h2{
-  color:#4cc9f0;
+#experience h2 {
+  color: #4cc9f0;
   display: flex;
   justify-content: center;
 }
@@ -219,7 +218,9 @@ header p {
   border-radius: 10px;
   object-fit: cover;
   border: 5px solid #4cc9f0;
-   box-shadow: 0 0 10px rgb(215, 218, 218), 0 0 20px #0ff; 
+  box-shadow:
+    0 0 10px rgb(215, 218, 218),
+    0 0 20px #0ff;
 }
 
 #experience .mc img:hover {
@@ -227,35 +228,41 @@ header p {
 }
 
 #experience .busem img {
-    margin-top: 30px;
+  margin-top: 30px;
   border-radius: 10px;
   object-fit: cover;
   border: 5px solid #4cc9f0;
- box-shadow: 0 0 10px rgb(215, 218, 218), 0 0 20px #0ff; 
+  box-shadow:
+    0 0 10px rgb(215, 218, 218),
+    0 0 20px #0ff;
 }
 
 #experience .busem img:hover {
   translate: 5px -10px;
-  }
+}
 
 #experience .AUA img {
-    margin-top: 30px;
+  margin-top: 30px;
   border-radius: 10px;
   object-fit: cover;
   border: 5px solid #4cc9f0;
-box-shadow: 0 0 10px rgb(215, 218, 218), 0 0 20px #0ff;
- }
+  box-shadow:
+    0 0 10px rgb(215, 218, 218),
+    0 0 20px #0ff;
+}
 
 #experience .AUA img:hover {
-translate: 5px -10px;
+  translate: 5px -10px;
 }
 
 #experience .ais img {
-    margin-top: 30px;
+  margin-top: 30px;
   border-radius: 10px;
   object-fit: cover;
   border: 5px solid #4cc9f0;
-  box-shadow: 0 0 10px rgb(215, 218, 218), 0 0 20px #0ff; 
+  box-shadow:
+    0 0 10px rgb(215, 218, 218),
+    0 0 20px #0ff;
 }
 
 #experience .ais img:hover {
@@ -266,34 +273,33 @@ translate: 5px -10px;
   margin-top: 5px;
   display: flex;
   justify-content: center;
-  color:#0ff;
+  color: #0ff;
 }
 
 .contact a {
   display: flex;
   justify-content: center;
   text-decoration: none;
- 
 }
-.moreinfo h2{
-  color:#0ff;
-  display:flex;
+.moreinfo h2 {
+  color: #0ff;
+  display: flex;
   justify-content: center;
 }
 
 .moreinfo {
   color: aliceblue;
   margin-top: 100px;
-  display:flex;
+  display: flex;
   justify-content: center;
-  align-items:center;
+  align-items: center;
   flex-direction: column;
   max-width: 1000px;
   margin: 0 auto;
 }
 
 button {
-  display:flex;
+  display: flex;
   justify-content: center;
   max-width: 100px;
   margin: 0 auto;
@@ -307,24 +313,27 @@ button {
   cursor: pointer;
 }
 
-button:active { transform: translate(3px, 3px); box-shadow: none; }
+button:active {
+  transform: translate(3px, 3px);
+  box-shadow: none;
+}
 
 .mini-game {
   border-radius: 10px;
-  color:#05277d;
+  color: #05277d;
   max-width: 500px;
   margin: 0 auto;
-  display:flex;
+  display: flex;
   justify-content: center;
-  flex-direction:column;
-    background: rgb(190, 246, 251);
-    border: 4px solid #4cc9f0;
-    box-shadow: 6px 6px 0 #007fa5;
-    padding: 15px;
-    margin-bottom: 15px;
+  flex-direction: column;
+  background: rgb(190, 246, 251);
+  border: 4px solid #4cc9f0;
+  box-shadow: 6px 6px 0 #007fa5;
+  padding: 15px;
+  margin-bottom: 15px;
 }
 
 .mini-game h3 {
-  display:flex;
+  display: flex;
   justify-content: center;
 }
